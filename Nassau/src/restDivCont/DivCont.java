@@ -13,13 +13,13 @@ public class DivCont {
     
 public void divisao (){
     Scanner div = new Scanner (System.in);
-    System.out.print("Qual o valor total da conta: R$ ");
+    System.out.println("Qual o valor total da conta");
     conta = div.nextDouble();
-    System.out.println("Quantas pessoas irão pagar a conta?: ");
+    System.out.println("Quantas pessoas irão pagar a conta?");
     pessoas = div.nextInt();
     
     contadiv = conta / pessoas;
     
-    System.out.println("O valor da conta para cada pessoa é de: R$" + contadiv);
+    System.out.println("O valor da conta para cada pessoa é de: " + contadiv);
 }
 }

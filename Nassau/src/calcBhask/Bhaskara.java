@@ -29,7 +29,7 @@ public void raiz (){
     delta = Math.pow(b, 2) - 4 * a * c;
     raizDelta = Math.sqrt(delta);
     raiz1 = (-b + raizDelta) / 2 * a;            
-    raiz2 = (-b - raizDelta)  /2 * a;
+    raiz2 = (-b - raizDelta) / 2 * a;
     if (delta > 0){
         System.out.println("Os resultados do calculo são: " + raiz1 + " e " + raiz2);
     }
