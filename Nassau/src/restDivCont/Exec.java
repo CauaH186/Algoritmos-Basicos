@@ -1,9 +1,9 @@
 
 package restDivCont;
 
-class Restaurante {
+class Exec {
     public static void main(String[] args) {
-        DivCont div = new DivCont ();
+        Calculo div = new Calculo ();
         div.divisao();
     }
 }

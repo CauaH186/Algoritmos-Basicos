@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Cauã
  */
-public class Bhaskara {
+public class Calculo {
        
     public Double a,b,c,raiz1, raiz2, delta, raizDelta;
 
@@ -23,7 +23,7 @@ public void raiz (){
     
         
         /*
-        Calculo da formula de Bhaskara
+        Calculo da formula de Calculo
         */   
     
     delta = Math.pow(b, 2) - 4 * a * c;

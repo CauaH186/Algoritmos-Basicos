@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * @author Cauã
  */
-public class DivCont {
+public class Calculo {
     public int pessoas;
     public double conta,contadiv;
     

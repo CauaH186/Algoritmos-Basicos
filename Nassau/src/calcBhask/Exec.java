@@ -1,10 +1,10 @@
 
 package calcBhask;
-public class Teste {
+public class Exec {
     
     
     public static void main(String[] args) { 
-        Bhaskara calculo = new Bhaskara ();
+        Calculo calculo = new Calculo ();
         calculo.raiz();
         
     }
