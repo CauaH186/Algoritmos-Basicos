@@ -1,5 +1,5 @@
 
-package restDivCont;
+package divisaoConta;
 
 import java.util.Scanner;
 

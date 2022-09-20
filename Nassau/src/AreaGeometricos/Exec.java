@@ -1,4 +1,4 @@
-package AreaGeo;
+package AreaGeometricos;
 
 public class Exec {
     public static void main (String [] args){

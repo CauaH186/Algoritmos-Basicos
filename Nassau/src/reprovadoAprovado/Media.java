@@ -1,4 +1,4 @@
-package ReprApv;
+package reprovadoAprovado;
 import java.util.Scanner;
 
 public class Media {

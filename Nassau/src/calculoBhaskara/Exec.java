@@ -1,5 +1,5 @@
 
-package calcBhask;
+package calculoBhaskara;
 public class Exec {
     
     

@@ -1,5 +1,5 @@
 
-package Desc;
+package lojaLivro;
 import java.util.Scanner;
 
 public class Calculo {

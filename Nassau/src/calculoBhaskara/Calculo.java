@@ -1,5 +1,5 @@
 
-package calcBhask;
+package calculoBhaskara;
 import java.util.Scanner;
 
 /**

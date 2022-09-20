@@ -1,6 +1,6 @@
 
 
-package Desc;
+package lojaLivro;
 
 
 public class Exec {

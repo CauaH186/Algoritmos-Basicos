@@ -1,4 +1,4 @@
-package AreaGeo;
+package AreaGeometricos;
 import java.util.Scanner;
 
 public class Quadrado {
