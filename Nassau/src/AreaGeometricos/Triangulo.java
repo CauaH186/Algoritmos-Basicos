@@ -1,17 +1,15 @@
 package AreaGeometricos;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Triangulo {
     public double base, altura, area;
     
     public void calcT (){
-        Scanner valor = new Scanner(System.in);
-        System.out.print("Digite a altura do triângulo: ");
-        altura = valor.nextDouble();
-        System.out.print("Digite a base do triângulo: ");
-        base = valor.nextDouble();
+        altura = Double.parseDouble(JOptionPane.showInputDialog("Digite a altura do triângulo: "));
+        base = Double.parseDouble(JOptionPane.showInputDialog("Digite a base do triângulo: "));
         area = (altura * base) / 2;
-        System.out.println("A aréa do triângulo é de: " + area);
+        JOptionPane.showMessageDialog(null, "A aréa do triângulo é de: " + area);
     }
                         
     

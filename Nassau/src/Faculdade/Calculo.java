@@ -1,70 +1,61 @@
 package Faculdade;
 
-import java.util.Scanner;
-
+import javax.swing.JOptionPane;
+import java.text.DecimalFormat;
 public class Calculo {
     public double mensalidade = 352.87;
     public int opc, mensVenc;
     
     public void calc (){
-        Scanner ler = new Scanner (System.in);
-        System.out.printf("1 - Manhã %n2 - Tarde %n3 - Noite%n");
-        System.out.print("Qual turno do seu curso?: ");
-        opc = ler.nextInt();
-        System.out.println(" ");
+        opc = 0;
+        while (opc != 4) {
+        DecimalFormat df = new DecimalFormat("0.00");
+        opc = Integer.parseInt(JOptionPane.showInputDialog("1 - Manhã \n2 - Tarde \n3 - Noite\n4 - Sair\nQual turno do seu curso?"));
         switch (opc){
             case 1 -> {
-                System.out.printf("1 - Sim %n2 - Não%n");
-                System.out.print("A mensalidade já passou do vencimento?: ");
-                opc = ler.nextInt();
-                System.out.println(" ");
+                opc = Integer.parseInt(JOptionPane.showInputDialog ("1 - Sim \n2 - Não\nA mensalidade já passou do vencimento?"));
                 switch (opc){
                     case 1 -> {
                         mensalidade = mensalidade - (mensalidade * 0.2);
-                        System.out.printf("O valor da mensalidade é de: %.2fR$%n", mensalidade);
+                        JOptionPane.showMessageDialog(null, "O valor da mensalidade é de: R$" + df.format(mensalidade));
                 }
                     case 2 -> {
                         mensalidade = mensalidade - (mensalidade * 0.2);
                         mensalidade = mensalidade - (mensalidade * 0.05);
-                        System.out.printf("O valor da mensalidade é de: %.2fR$%n", mensalidade);
+                        JOptionPane.showMessageDialog(null, "O valor da mensalidade é de: R$" + df.format(mensalidade));
                 }
-                    default -> System.out.println("Opção Inválida");
+                    default -> JOptionPane.showMessageDialog(null, "Opção Inválida");
                 }
             }
             case 2 -> { 
-                System.out.printf("1 - Sim %n2 - Não%n");
-                System.out.print("A mensalidade já passou do vencimento?: ");
-                opc = ler.nextInt();
-                System.out.println(" ");
-                
+                opc = Integer.parseInt(JOptionPane.showInputDialog ("1 - Sim \n2 - Não\nA mensalidade já passou do vencimento?"));                
                 switch (opc){
                     case 1 -> {
                         mensalidade = mensalidade - (mensalidade * 0.13);
-                        System.out.printf("O valor da mensalidade é de: %.2fR$%n", mensalidade);
+                        JOptionPane.showMessageDialog(null, "O valor da mensalidade é de: R$" + df.format(mensalidade));
                 }
                     case 2 -> {
                         mensalidade = mensalidade - (mensalidade * 0.13);
                         mensalidade = mensalidade - (mensalidade * 0.05);
-                        System.out.printf("O valor da mensalidade é de: %.2fR$%n", mensalidade);
+                        JOptionPane.showMessageDialog(null, "O valor da mensalidade é de: R$" + df.format(mensalidade));
                 }
-                    default -> System.out.println("Opção Inválida");
+                    default -> JOptionPane.showMessageDialog(null, "Opção Inválida");
                 }
             }
             case 3 -> {
-                System.out.printf("1 - Sim %n2 - Não%n");
-                System.out.print("A mensalidade já passou do vencimento?: ");
-                opc = ler.nextInt();
-                System.out.println(" ");
+                opc = Integer.parseInt(JOptionPane.showInputDialog ("1 - Sim \n2 - Não\nA mensalidade já passou do vencimento?"));
                 switch (opc){
-                    case 1 -> System.out.println("O valor da mensalidade é de: R$" + mensalidade);
+                    case 1 ->   JOptionPane.showMessageDialog(null, "O valor da mensalidade é de: R$" + df.format(mensalidade));
                     case 2 -> {
                         mensalidade = mensalidade - (mensalidade * 0.05);
-                        System.out.printf("O valor da mensalidade é de: %.2fR$%n", mensalidade);
+                        JOptionPane.showMessageDialog(null, "O valor da mensalidade é de: R$" + df.format(mensalidade));
                 }
-                    default -> System.out.println("Opção Inválida");
+                    default -> JOptionPane.showMessageDialog(null, "Opção Inválida");
                 }
             }
-            default -> System.out.println("Opção Inválida");
+            case 4 -> JOptionPane.showMessageDialog(null, "Volte sempre");
+            default -> JOptionPane.showMessageDialog(null, "Opção Inválida");
+        }
         }
         
     }

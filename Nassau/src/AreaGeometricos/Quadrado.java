@@ -1,15 +1,13 @@
 package AreaGeometricos;
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Quadrado {
     public double lado;
     
     public void calcQ (){
-        Scanner valor = new Scanner(System.in);
-        System.out.print("Digite o lado do quadrado: ");
-        lado = valor.nextDouble();
+        lado = Double.parseDouble(JOptionPane.showInputDialog("Digite o tamanho do lado do quadrado"));
         lado = lado * lado;
-        System.out.println("A aréa do quadrado é de: " + lado);
+        JOptionPane.showMessageDialog(null, "A aréa do quadrado é de: " + lado);
     }
                         
     

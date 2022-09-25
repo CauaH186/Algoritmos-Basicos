@@ -1,26 +1,22 @@
 package reprovadoAprovado;
-import java.util.Scanner;
+
+import javax.swing.JOptionPane;
 
 public class Media {
-    public double nota1, nota2, media;
-    
-    public void calc (){
-        Scanner ler = new Scanner (System.in);
-        System.out.print("Digite a sua primeira nota: ");
-        nota1 = ler.nextDouble();
-        System.out.print("Digite sua Segunda nota: ");
-        nota2 = ler.nextDouble();
-        
-        media = (nota1 + nota2) / 2;
-        
-        if (media > 6){
-            System.out.println("Você foi aprovado");
-        }
-        else if (media >= 4) {
-            System.out.println("Você está de recuperação");
-        }
-        else {
-            System.out.println("Você está reprovado");
-        }
-    }
+     public double nota1, nota2, media;
+     
+     public void media () {
+         nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite sua primeira nota:"));
+         nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite sua segunda nota:"));
+         
+         media = (nota1 + nota2) / 2;
+         
+         if (media > 7) {
+             JOptionPane.showMessageDialog(null, "Você foi aprovado");
+         } else if (media >= 4 && media < 7){
+             JOptionPane.showMessageDialog(null, "Você está na final");
+         } else {
+             JOptionPane.showMessageDialog(null, "Você está reprovado");
+         }
+     }
 }

@@ -1,19 +1,15 @@
 package AreaGeometricos;
 
-import java.util.Scanner;
-
+import javax.swing.JOptionPane;
 
 public class Calculo {
   
     public int opc;
     
     public void area(){
-        Scanner ler = new Scanner(System.in);
-        
-        
-        System.out.printf("1 - Quadrado %n2 - Retângulo %n3 - Círculo %n4 - Triângulo %n");
-        System.out.print("Escolha uma opção: ");
-        opc = ler.nextInt();
+        opc = 0;    
+        while (opc != 5){
+            opc = Integer.parseInt(JOptionPane.showInputDialog("1 - Quadrado \n2 - Retângulo \n3 - Círculo \n4 - Triângulo \n5 - Sair \nEscolha uma opção"));
             switch (opc){
             case 1 -> { 
                 Quadrado calc1 = new Quadrado();
@@ -31,9 +27,12 @@ public class Calculo {
                 Triangulo calc4 = new Triangulo();
                 calc4.calcT();
             }
-            default -> System.out.println("invalido");
+            case 5 -> JOptionPane.showMessageDialog (null, "Volte sempre");
+            default -> JOptionPane.showMessageDialog(null, "invalido");
                 
         }
-              
+        }      
+                
     }
 }
+

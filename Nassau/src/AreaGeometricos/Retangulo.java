@@ -1,21 +1,18 @@
 package AreaGeometricos;
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Retangulo {
     public double base, altura, area;
     
     public void calcR (){
         
-		Scanner valor = new Scanner(System.in);
-		System.out.print("Digite a base do Retangulo: ");
-		base = valor.nextDouble();
-		System.out.print("Digite a altura do Retangulo: ");
-		altura = valor.nextDouble();
+		base = Double.parseDouble(JOptionPane.showInputDialog("Digite a base do retangulo"));
+		altura = Double.parseDouble(JOptionPane.showInputDialog("Digite a altura do Retangulo:"));
 		area = base * altura;
                 if (base == altura){
-                    System.out.printf("Não é um retangulo e sim um quadrado de aréa igual a: %.1f%n", area);
+                    JOptionPane.showMessageDialog(null, "Não é um retangulo e sim um quadrado de aréa igual a: " + area);
                 } else {
-                    System.out.printf("A area do retangulo é de: %.1f%n", area);
+                    JOptionPane.showMessageDialog(null, "A area do retangulo é de: 0" + area);
                 }
     }
                         

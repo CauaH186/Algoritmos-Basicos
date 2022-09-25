@@ -1,25 +1,21 @@
 
 package divisaoConta;
-
-import java.util.Scanner;
+import java.text.DecimalFormat;
+import javax.swing.JOptionPane;
 
 /**
  *
  * @author Cauã
  */
 public class Calculo {
-    public int pessoas;
-    public double conta,contadiv;
     
 public void divisao (){
-    Scanner div = new Scanner (System.in);
-    System.out.println("Qual o valor total da conta");
-    conta = div.nextDouble();
-    System.out.println("Quantas pessoas irão pagar a conta?");
-    pessoas = div.nextInt();
+    DecimalFormat df = new DecimalFormat("0.00");
+    double conta = Double.parseDouble(JOptionPane.showInputDialog("Qual o valor total da conta?"));
+    double pessoas = Double.parseDouble(JOptionPane.showInputDialog("Quantas pessoas irão pagar a conta?"));
     
-    contadiv = conta / pessoas;
+    double contadiv = conta / pessoas;
     
-    System.out.println("O valor da conta para cada pessoa é de: " + contadiv);
+    JOptionPane.showMessageDialog(null, "O valor da conta para cada pessoa é de: R$" + df.format(contadiv));
 }
 }
