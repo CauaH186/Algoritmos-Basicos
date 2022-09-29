@@ -19,7 +19,7 @@ public class JavaApplication2 {
                     aux = vetor[j];
                     vetor[j] = vetor[j + 1];
                     vetor[j+1] = aux;
-                    tro = ++tro;
+                    ++tro;
                     controle = false;
                 }
             }
@@ -27,7 +27,7 @@ public class JavaApplication2 {
                 break;
             }
         }
-        System.out.println(com + 1);
+        System.out.println(com);
         System.out.println(tro);
         for(int i=0; i<vetor.length;i++){
             System.out.print(vetor[i]+ " ");
