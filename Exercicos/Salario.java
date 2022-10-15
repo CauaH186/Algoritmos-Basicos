@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Salario {
 
-    @SuppressWarnings("empty-statement")
+    
     public static void main(String[] args) {
         int opc = 1;
         int i = 0;
