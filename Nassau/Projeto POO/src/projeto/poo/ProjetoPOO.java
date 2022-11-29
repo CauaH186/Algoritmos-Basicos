@@ -20,8 +20,7 @@ class ProjetoPOO {
   }
 
   public static void main(String[] args) {
-    JOptionPane.showMessageDialog(null,
-        "Alunos que fizeram: \nCauã Henrique - 01564863 \nIsabelly Luisy - 01565513 \nCassiano Ferreira - 01566503");
+    JOptionPane.showMessageDialog(null, "Alunos que fizeram: \nCauã Henrique - 01564863 \nIsabelly Luisy - 01565513 \nCassiano Ferreira - 01566503");
     Scanner ler = new Scanner(System.in);
     int opc = 0;
     while (opc != 5) {
