@@ -1,10 +1,7 @@
-package projeto.poo;
+public class Divisao extends Operacoes {
 
-public class Divisao extends Operacoes{
-    
-    @Override
-    public double calcular(){
-    resultado = getN1() / getN2();
-    return resultado;
-    }
+  @Override
+  public double calcular() {
+    return getN1() / getN2();
+  }
 }
