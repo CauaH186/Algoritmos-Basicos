@@ -15,7 +15,7 @@ class ProjetoPOO {
     Scanner ler = new Scanner(System.in);
     System.out.print("Digite o primeiro valor: ");
     v1 = ler.nextDouble();
-    System.out.print("Digite o primeiro valor: ");
+    System.out.print("Digite o segundo valor: ");
     v2 = ler.nextDouble();
   }
 
