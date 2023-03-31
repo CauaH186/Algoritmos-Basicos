@@ -1,2 +1,2 @@
-# Java-Faculdade
-Atividades em java da faculdade de SI e ADS
+# Algoritmos Básicos
+Algoritmos simples que escrevi enquanto estudava
