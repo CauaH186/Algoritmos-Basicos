@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7544379-5da4-4ccc-81a5-c4fb3ad2fa2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ArvoreAVL/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MediaSalarial/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OperacoesBasicas/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercicos/Salario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arvore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArvoreAVL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../No.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pilha&amp;Fila.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/build/classes/projeto/poo/Divisao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/build/classes/projeto/poo/Escolha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/build/classes/projeto/poo/Multiplicacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/build/classes/projeto/poo/Operacoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/build/classes/projeto/poo/ProjetoPOO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/build/classes/projeto/poo/Soma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/build/classes/projeto/poo/Subtracao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/src/projeto/poo/Divisao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/src/projeto/poo/Multiplicacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/src/projeto/poo/Operacoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/src/projeto/poo/ProjetoPOO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/src/projeto/poo/Soma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto POO/src/projeto/poo/Subtracao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prova1AVEstruturaDeDados/bin/prova1avestruturadedados/Prova1AVEstruturaDeDados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prova1AVEstruturaDeDados/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prova1AVEstruturaDeDados/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prova1AVEstruturaDeDados/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prova1AVEstruturaDeDados/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prova1AVEstruturaDeDados/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prova1AVEstruturaDeDados/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prova1AVEstruturaDeDados/src/prova1avestruturadedados/Prova1AVEstruturaDeDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaGeometricos/Calculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaGeometricos/Circulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaGeometricos/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaGeometricos/Quadrado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaGeometricos/Retangulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaGeometricos/Triangulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/Calculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculdade/Calculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculdade/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Idade/Calculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Idade/Divisao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Idade/Escolha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Idade/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Idade/Multiplicacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Idade/Operacoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Idade/ProjetoPOO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Idade/Soma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Idade/Subtracao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculoBhaskara/Calculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculoBhaskara/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/divisaoConta/Calculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/divisaoConta/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaLivro/Calculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaLivro/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reprovadoAprovado/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reprovadoAprovado/Media.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NkL6AnCTHkAlQSlGrj8lm7siHm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/caua-/Documents/Java-Faculdade/Nassau/No.java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7544379-5da4-4ccc-81a5-c4fb3ad2fa2c" name="Changes" comment="" />
+      <created>1680202955313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680202955313</updated>
+      <workItem from="1680202956454" duration="74000" />
+      <workItem from="1680207233783" duration="1798000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
